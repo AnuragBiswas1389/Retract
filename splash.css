@@ -1,23 +1,21 @@
 /* splash screen component */
+
+
 .splash--body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .splash--container {
   background-color: #7971ea;
   border-radius: 1.9em;
   padding: 1em;
-  /*margin-top: -7.5em; set to a negative number 1/2 of your height
-  margin-left: -10em; set to a negative number 1/2 of your width */
   position: absolute;
   top: 40%;
   transform: translate(0, -40%);
   width: 15em;
   height: 13em;
-  /* position: relative; */
 }
 
 .splash {
