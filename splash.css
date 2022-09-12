@@ -1,6 +1,5 @@
 /* splash screen component */
 
-
 .splash--body {
   display: flex;
   flex-direction: column;
@@ -25,7 +24,7 @@
 }
 
 .splash-icon {
-  height: 8em;
+  height: 7em;
 }
 .splash-loadText {
   color: white;
@@ -40,9 +39,13 @@
 
 .splash--credit {
   position: fixed;
-  bottom: 6rem;
+  bottom: 3rem;
   width: 100%;
   text-align: center;
   font-family: "poppins";
-  font-size: small;
+  font-size: x-small;
+  color: #958b8b;
+}
+.splash--credit a {
+  color: inherit;
 }
