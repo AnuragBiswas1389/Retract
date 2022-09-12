@@ -1,0 +1,50 @@
+/* splash screen component */
+.splash--body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.splash--container {
+  background-color: #7971ea;
+  border-radius: 1.9em;
+  padding: 1em;
+  /*margin-top: -7.5em; set to a negative number 1/2 of your height
+  margin-left: -10em; set to a negative number 1/2 of your width */
+  position: absolute;
+  top: 40%;
+  transform: translate(0, -40%);
+  width: 15em;
+  height: 13em;
+  /* position: relative; */
+}
+
+.splash {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.splash-icon {
+  height: 8em;
+}
+.splash-loadText {
+  color: white;
+  position: absolute;
+  bottom: 35px;
+  text-align: center;
+  width: 100%;
+  right: 0px;
+  font-family: "poppins";
+  font-size: small;
+}
+
+.splash--credit {
+  position: fixed;
+  bottom: 6rem;
+  width: 100%;
+  text-align: center;
+  font-family: "poppins";
+  font-size: small;
+}
